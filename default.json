@@ -1,8 +1,8 @@
 {
   "name": "Coasting FIRE",
   "investments": {
-    "total": "2200000",
-    "monthly": "15000"
+    "total": "1500000",
+    "monthly": "20000"
   },
   "costs": {
     "quality": [
@@ -10,12 +10,6 @@
         "name": "Apple iCloud",
         "cost": {
           "monthly": 9
-        }
-      },
-      {
-        "name": "Waking Up",
-        "cost": {
-          "yearly": 995
         }
       },
       {
@@ -39,15 +33,15 @@
     ],
     "survival": [
       {
-        "name": "Rent",
+        "name": "Mortgage",
         "cost": {
-          "monthly": 10692
+          "monthly": 5500
         }
       },
       {
         "name": "Home insurance",
         "cost": {
-          "monthly": 119
+          "monthly": 139
         }
       },
       {
@@ -63,12 +57,6 @@
         }
       },
       {
-        "name": "Prescription glasses",
-        "cost": {
-          "monthly": 637
-        }
-      },
-      {
         "name": "SEB",
         "cost": {
           "monthly": 15
@@ -77,13 +65,13 @@
       {
         "name": "Electricity",
         "cost": {
-          "monthly": 500
+          "monthly": 650
         }
       },
       {
         "name": "Food",
         "cost": {
-          "monthly": 3000
+          "monthly": 3500
         }
       }
     ]
