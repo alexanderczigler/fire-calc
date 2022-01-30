@@ -36,5 +36,11 @@ const fourPercentRequirement = totalcosts * 12 / 0.04;
 
 console.log()
 console.log(`-> Your monthly costs add up to ${print.bold(print.currency(totalcosts))}`)
-console.log(`-> To be able to withdraw 4 % you will need to have at least ${print.bold(print.currency(fourPercentRequirement))} invested`)
+console.log(`-> To be able to withdraw ${print.bold('4 %')} in a year you will need to have at least ${print.bold(print.currency(fourPercentRequirement))} invested`)
+console.log()
+
+const remaining = fourPercentRequirement - scenario.investments.total;
+const remainingMonths = remaining / scenario.investments.monthly;
+console.log(`-> You need another ${print.bold(print.currency(remaining))}`)
+console.log(`-> At your current rate, you are ${print.bold(Math.ceil(remainingMonths))} months from your goal.`)
 console.log()

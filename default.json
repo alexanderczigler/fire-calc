@@ -1,5 +1,9 @@
 {
   "name": "Coasting FIRE",
+  "investments": {
+    "total": "2200000",
+    "monthly": "15000"
+  },
   "costs": {
     "quality": [
       {
@@ -12,6 +16,24 @@
         "name": "Waking Up",
         "cost": {
           "yearly": 995
+        }
+      },
+      {
+        "name": "N26",
+        "cost": {
+          "monthly": 45
+        }
+      },
+      {
+        "name": "Food",
+        "cost": {
+          "monthly": 2000
+        }
+      },
+      {
+        "name": "Audible/Kindle",
+        "cost": {
+          "monthly": 300
         }
       }
     ],
@@ -32,6 +54,36 @@
         "name": "Health insurance",
         "cost": {
           "monthly": 89
+        }
+      },
+      {
+        "name": "Income insurance",
+        "cost": {
+          "monthly": 140
+        }
+      },
+      {
+        "name": "Prescription glasses",
+        "cost": {
+          "monthly": 637
+        }
+      },
+      {
+        "name": "SEB",
+        "cost": {
+          "monthly": 15
+        }
+      },
+      {
+        "name": "Electricity",
+        "cost": {
+          "monthly": 500
+        }
+      },
+      {
+        "name": "Food",
+        "cost": {
+          "monthly": 3000
         }
       }
     ]
