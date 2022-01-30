@@ -4,13 +4,14 @@
   "description": "Basic FIRE calculator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon"
   },
   "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "nodemon": "^2.0.15"
   }
 }
