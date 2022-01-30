@@ -1,10 +1,10 @@
-import { readFile } from 'fs/promises';
 import calculator from './lib/calculator.js'
 import print from './lib/print.js'
+import scenarioLoader from './lib/scenarioLoader.js'
+import minimist from 'minimist'
 
-const scenario = JSON.parse(
-  await readFile('./default.json')
-);
+const argv = minimist(process.argv.slice(2))
+const scenario = scenarioLoader.loadScenario(argv.scenario)
 
 scenario.costs.quality.forEach(({ cost }) => {
   if (!cost.monthly) {
