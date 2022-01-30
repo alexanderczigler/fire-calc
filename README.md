@@ -2,7 +2,7 @@
 
 This is a simple FIRE calculator i made as a cli tool. (FIRE = Financial Independence, Retire Early.)
 
-## Assumptions and known issues
+## Limitation
 
 - The calculator is currently locked to SEK and Swedish number formatting
 - It uses the rather pessimistic 4 % rule
@@ -13,7 +13,7 @@ This is a simple FIRE calculator i made as a cli tool. (FIRE = Financial Indepen
 
 ```shell
 npm ci
-node index.js --scenario=my-fire.json
+node index.js --scenario=my-fire.json # See the example scenario below on how to structure this json file
 ```
 
 Now that it's running you will see the output every time you change your numbers.
