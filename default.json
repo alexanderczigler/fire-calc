@@ -1,0 +1,39 @@
+{
+  "name": "Coasting FIRE",
+  "costs": {
+    "quality": [
+      {
+        "name": "Apple iCloud",
+        "cost": {
+          "monthly": 9
+        }
+      },
+      {
+        "name": "Waking Up",
+        "cost": {
+          "yearly": 995
+        }
+      }
+    ],
+    "survival": [
+      {
+        "name": "Rent",
+        "cost": {
+          "monthly": 10692
+        }
+      },
+      {
+        "name": "Home insurance",
+        "cost": {
+          "monthly": 119
+        }
+      },
+      {
+        "name": "Health insurance",
+        "cost": {
+          "monthly": 89
+        }
+      }
+    ]
+  }
+}
